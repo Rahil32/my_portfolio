@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.c61ac558.css",
+    "main.js": "/my_portfolio/static/js/main.3865b124.js",
+    "static/js/787.1ed0c42c.chunk.js": "/my_portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/rahil.jpg": "/my_portfolio/static/media/rahil.18fbd5280cb35b360f25.jpg",
+    "static/media/FireAlpaca_TheBnoob.png": "/my_portfolio/static/media/FireAlpaca_TheBnoob.db223110b08d396ac4af.png",
+    "static/media/FireAlpaca_Pranshuta.png": "/my_portfolio/static/media/FireAlpaca_Pranshuta.3e53ddcd4c04d71089d9.png",
+    "static/media/AdobeXD_Woble.png": "/my_portfolio/static/media/AdobeXD_Woble.4dec7be518d66188de81.png",
+    "static/media/AdobeXD_Groove.png": "/my_portfolio/static/media/AdobeXD_Groove.55fa9d43689008c8ff60.png",
+    "static/media/AdobeXD_Faluda.png": "/my_portfolio/static/media/AdobeXD_Faluda.502ad35988ddb6e32283.png",
+    "static/media/AdobeXD_Meetup.png": "/my_portfolio/static/media/AdobeXD_Meetup.21055ddec6adae0b6336.png",
+    "static/media/react.svg": "/my_portfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/adobe-xd.svg": "/my_portfolio/static/media/adobe-xd.9151dfffb26bd18d350cf29b8bbf74f8.svg",
+    "static/media/tailwind-css.svg": "/my_portfolio/static/media/tailwind-css.315d0ac2a2708d5f06972906113dfbf1.svg",
+    "index.html": "/my_portfolio/index.html",
+    "static/media/figma.svg": "/my_portfolio/static/media/figma.72ff35026c53ba574aef54c980db0e8d.svg",
+    "main.c61ac558.css.map": "/my_portfolio/static/css/main.c61ac558.css.map",
+    "main.3865b124.js.map": "/my_portfolio/static/js/main.3865b124.js.map",
+    "787.1ed0c42c.chunk.js.map": "/my_portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c61ac558.css",
+    "static/js/main.3865b124.js"
+  ]
+}
