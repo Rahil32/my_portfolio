@@ -71,35 +71,36 @@ function Content() {
             </p>
           </div>
 
-          <div className="flex flex-wrap -m-4">
-            {contentArray.map(({ id, image, title, detail, link }) => (
-              <div key={id} className="lg:w-1/3 sm:w-1/2 p-4">
-                <div className="flex relative">
-                  <img
-                    alt="gallery"
-                    className="absolute inset-0 w-full h-full object-cover object-center"
-                    src={image}
-                  />
-                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                    <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                      {title}
-                    </h1>
-                    <p className="leading-relaxed mb-5">{detail}</p>
+          
+            <div className="flex flex-wrap mx-auto -m-4">
+              {contentArray.map(({ id, image, title, detail, link }) => (
+                <div key={id} className="lg:w-1/3 sm:w-1/2 p-4">
+                  <div className="flex relative">
+                    <img
+                      alt="gallery"
+                      className="absolute inset-0 w-full h-full object-cover object-center"
+                      src={image}
+                    />
+                    <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+                      <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
+                        {title}
+                      </h1>
+                      <p className="leading-relaxed mb-5">{detail}</p>
 
-                    <a
-                      href={link}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="bg-gradient-to-r hover: from-amber-800 to-amber-600 
+                      <a
+                        href={link}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="bg-gradient-to-r hover: from-amber-800 to-amber-600 
            cursor-pointer text-white font-bold py-2 px-4 rounded-full"
-                    >
-                      Link
-                    </a>
+                      >
+                        Link
+                      </a>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
         </div>
       </section>
     </div>
